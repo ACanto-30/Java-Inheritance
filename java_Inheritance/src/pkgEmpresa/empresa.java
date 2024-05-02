@@ -12,7 +12,7 @@ public class empresa {
         int opcion;
         Method[] metodos;
 
-        clsGerente gerente = new clsGerente("Gerente1", 1, 2000, 40, true, "gerente@empresa.com", 20, 100.000);
+        clsGerente gerente = new clsGerente("Gerente2", 1, 2000, 40, true, "gerente@empresa.com", 20, 100.000);
         clsAnalistaDeSeguridad analistaSeguridad = new clsAnalistaDeSeguridad("Analista de Seguridad", 2, 1500, 40, true, "analista_seguridad@empresa.com", "Rol", "Gestión de Accesos");
         clsAnalistaDeDatos analistaDatos = new clsAnalistaDeDatos("Analista de Datos", 3, 1800, 30, false, "analista_datos@empresa.com", "Especialidad", true);
         clsConsultorFinanciero consultorFinanciero = new clsConsultorFinanciero("Consultor Financiero", 4, 2200, 35, true, "consultor_financiero@empresa.com", "Área de especialización", "Tipo de consultoría");
